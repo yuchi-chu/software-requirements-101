@@ -1,10 +1,9 @@
 project: 
   type: book
   output-dir: docs
-
 book: 
   page-navigation: true
-  title: "NOAA quarto book" 
+  title: "Software Requirements 101" 
   site-url: "https://nmfs-opensci.github.io/NOAA-quarto-book" 
   repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-book"
   repo-actions: [edit, source, issue]
