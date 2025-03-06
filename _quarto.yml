@@ -27,7 +27,7 @@ book:
           department: Southwest Fisheries Science Center
   chapters:
     - index.qmd
-    - content/setup.qmd
+    - content/introduction.qmd
     - content/add-content.qmd
     - content/customizing.qmd
     - content/rendering.qmd
@@ -56,6 +56,14 @@ book:
 
 bibliography: [content/references.bib]
 
+crossref:
+  chapters: true
+  fig-title: 圖    # (default is "Figure")
+  tbl-title: 表     # (default is "Table")
+  # title-delim: "."  # (default is " "), not for pdf
+  fig-prefix: 圖  # (default is "Figure")
+  tbl-prefix: 表    # (default is "Table")
+
 execute:
   echo: false
   code-overflow: wrap
@@ -75,6 +83,7 @@ format:
     theme: [cosmo, assets/theme.scss] 
     toc: true
     toc-depth: 3
+    
 
 filters:
   - assets/include-files.lua
