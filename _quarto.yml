@@ -3,31 +3,16 @@ project:
   output-dir: docs
 book: 
   page-navigation: true
-  title: "Software Requirements 101" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-book" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-book"
-  repo-actions: [edit, source, issue]
-  favicon: assets/favicon.ico
-  downloads: [pdf, docx]
+  title: "白鯨記摘譯" 
+  #site-url: "https://nmfs-opensci.github.io/NOAA-quarto-book" 
+  #repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-book"
+  #repo-actions: [edit, source, issue]
+  #favicon: assets/favicon.ico
+  #downloads: [pdf, docx]
   search: true
-  author:
-    - name: Jane Doe
-      affiliations:
-        - name: NOAA Fisheres
-          department: Northwest Fisheries Science Center
-    - name: Eva Nováková
-      institute: test
-      affiliations:
-        - name: NOAA Fisheries
-          department: West Coast Regional Office
-          institute: test
-    - name: Matti Meikäläinen
-      affiliations:
-        - name: NOAA Fisheries
-          department: Southwest Fisheries Science Center
   chapters:
     - index.qmd
-    - content/introduction.qmd
+    - content/chap1.qmd
     - content/add-content.qmd
     - content/customizing.qmd
     - content/rendering.qmd
@@ -38,12 +23,12 @@ book:
 
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; CC-1.0"
+    #left: "&copy; CC-1.0"
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
-    favicon: images/favicon.ico
+    #logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+    #favicon: images/favicon.ico
     pinned: true
     align: center
     tools: 
@@ -69,16 +54,6 @@ execute:
   code-overflow: wrap
 
 format:
-  titlepage-pdf:
-    documentclass: scrbook
-    classoption: ["oneside", "open=any"]
-    titlepage: "plain"
-    keep-tex: true
-  docx:
-    toc: true
-    toc-depth: 2
-    reference-doc: template.docx
-    always_allow_html: true
   html:
     theme: [cosmo, assets/theme.scss] 
     toc: true

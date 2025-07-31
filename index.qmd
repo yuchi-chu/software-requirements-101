@@ -1,8 +1,15 @@
 # Summary {.unnumbered}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo gravida justo consectetur condimentum. Proin eget felis non nunc tristique malesuada vel ut tortor. Vivamus lacinia aliquet lorem in congue. In hac habitasse platea dictumst. Etiam non felis iaculis, efficitur libero in, porta nunc. Sed sit amet nisi non justo scelerisque feugiat. Pellentesque porta consectetur sapien, porttitor iaculis ligula fermentum ac. Pellentesque fermentum elementum lacus non tempus. Aenean eu leo lobortis, vulputate mi at, varius sapien. In congue consectetur ultricies. Maecenas volutpat facilisis arcu, eget sodales tellus consequat nec. Integer ullamcorper ex nec leo aliquam tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc dui massa, facilisis at aliquet eu, malesuada vel neque. Donec fermentum elit eu tortor euismod, sed mollis lacus blandit.
 
-New paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo gravida justo consectetur condimentum. Proin eget felis non nunc tristique malesuada vel ut tortor. Vivamus lacinia aliquet lorem in congue. In hac habitasse platea dictumst. Etiam non felis iaculis, efficitur libero in, porta nunc. Sed sit amet nisi non justo scelerisque feugiat. Pellentesque porta consectetur sapien, porttitor iaculis ligula fermentum ac. Pellentesque fermentum elementum lacus non tempus. Aenean eu leo lobortis, vulputate mi at, varius sapien. In congue consectetur ultricies. Maecenas volutpat facilisis arcu, eget sodales tellus consequat nec. Integer ullamcorper ex nec leo aliquam tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc dui massa, facilisis at aliquet eu, malesuada vel neque. Donec fermentum elit eu tortor euismod, sed mollis lacus blandit.
+《白鯨記》是一部關於十九世紀上半葉輝煌捕鯨年代的故事。當時，鯨油需求甚殷：城市街道靠它照明，許多家庭與公共建築則使用由鯨油提煉的瓦斯燈。正如書中所述，美國船隊在該產業佔據主導地位——1846年，從事捕鯨的美國船隻便超過七百艘。
+
+自那時起，鯨油已失去其重要性。街道與建築改由電力照明，石油製品更取代了鯨油的地位。但人類仍未停止獵捕鯨魚，只是如今許多國家已限制或禁止捕捉特定鯨種。現代化的捕鯨方式，亦消褪了昔日令這項行業如此驚心動魄的冒險精神、精湛技藝與致命危險。
+
+《白鯨記》既是刺激的冒險故事，亦是一個人追尋報復的複雜敘事。那頭狡黠白鯨與誓死獵殺牠的男子之間的對決，表象之下另有深意——實則是一場人與自我的搏鬥。
+
+作者：赫爾曼·梅爾維爾（Herman Melville）於1819年8月誕生於紐約，幼年即遭逢父母雙亡。雖僅短暫就讀中學，他仍成長為卓越的學者與作家。
+
+梅爾維爾曾務農、航海、加入美國海軍、執教鞭，更參與太平洋捕鯨航行——正是這段經歷，為他日後創作《白鯨記》積累了大量素材。1851年他與家人定居麻薩諸塞州期間，完成了這部鉅著。
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
