@@ -189,14 +189,14 @@
   \newcommand\listtablename{List of Tables}
 \fi
 \ifdefined\figurename
-  \renewcommand*\figurename{Figure}
+  \renewcommand*\figurename{圖}
 \else
-  \newcommand\figurename{Figure}
+  \newcommand\figurename{圖}
 \fi
 \ifdefined\tablename
-  \renewcommand*\tablename{Table}
+  \renewcommand*\tablename{表}
 \else
-  \newcommand\tablename{Table}
+  \newcommand\tablename{表}
 \fi
 }
 \@ifpackageloaded{float}{}{\usepackage{float}}
@@ -585,7 +585,16 @@ PC
 applications），例如圖書館資訊系統、會計系統，或醫療診所的掛號及病歷管理系統等。
 客製型軟體則是根據客戶預先定義的規格，委託軟體開發公司（或由組織內部的IT部門自行發展），為滿足客戶的特定需求而開發的軟體，只提供給特定的客戶或使用者操作使用。此類軟體通常是為支援特定的業務流程，例如，道路交通管制系統、空氣品質監測資料管理系統、公務機關的入口網站等。
 
-通用型軟體和定製型軟體的關鍵區別在於，通用性軟體的規格是由開發者所掌握及控制，這意味著，如果他們遇到開發或是後續維護上的問題，他們可以重新調整或更新其內容。對於客製性軟體，其需求及規格則由委託的客戶所製定及規範，承攬開發的軟體公司必須按照客戶所要求的規格開發軟體。
+通用型軟體和定製型軟體的關鍵區別在於，通用性軟體的規格是由開發者所掌握及控制，這意味著，如果他們遇到開發或是後續維護上的問題，他們可以重新調整或更新其內容。對於客製性軟體，其需求及規格則由委託的客戶所製定及規範，承攬開發的軟體公司必須按照客戶所要求的規格開發軟體。詳如
+圖~\ref{fig-sw-category} 的說明
+
+\begin{figure}
+
+\includegraphics[width=3.125in,height=\textheight,keepaspectratio]{content/../images/sw-category.png}
+
+\caption{\label{fig-sw-category}軟體的分類}
+
+\end{figure}%
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -758,7 +767,7 @@ You can embed an R code chunk like this:
 \section{Including Plots}\label{including-plots}
 
 You can also embed plots and reference them, like so
-Figure~\ref{fig-pressure}.
+圖~\ref{fig-pressure}.
 
 \begin{figure}
 
@@ -777,7 +786,7 @@ chunk to prevent printing of the R code that generated the plot.
 
 \section{Including Tables}\label{including-tables}
 
-You can also embed tables and reference them with Table~\ref{tbl-iris}.
+You can also embed tables and reference them with 表~\ref{tbl-iris}.
 
 \begin{Shaded}
 \begin{Highlighting}[]
